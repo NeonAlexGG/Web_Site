@@ -1,0 +1,184 @@
+/*Заголовок*/
+
+.intro_servis{
+display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 75vh;
+  background: rgb(51, 171, 113);
+  background-image: url(../image/header_2.jpg);
+  background-size: cover;
+}
+
+.container__service{
+    text-align: center;
+    width: 100%;
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.intro__title__service{
+    color: #FFFFFF;
+    font-size: 40px;
+}
+.intro__subtitle__service{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+
+
+/*Сервисы*/
+
+.container_block_service{
+    width: 70%;
+    margin-top: 70px;
+}
+
+.container_block_service_subtitle{
+    width: 70%;
+    margin-top: 70px;
+}
+
+.title_service{
+    font-size: 16px;
+    line-height: normal;
+    color: #373737;
+}
+
+.subtitle_service{
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: normal;
+    color: #373737;
+}
+
+.description_service{
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: normal;
+    color: #373737;
+}
+.description_service_s{
+    margin-top: 50px;
+    font-size: 16px;
+    line-height: normal;
+    color: #373737;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.containte_sidebar{
+    margin-left: 130px;
+    margin-right: 130px;
+    display:flex ;
+}
+
+.containte_sidebar_content{
+    width: 1360px;
+    display:flex ;
+    margin-top: 30px;
+}
+
+.image__servise{
+    padding-left: 71px;
+    width: 600px;
+}
+
+.container__wrapper{
+    text-decoration: none;
+    margin-left: 80px;
+    font-size: 16px;
+    line-height: normal;
+    color: #D32333;
+    font-style: normal;
+}
+
+.container_block_service_wp{
+    width: 40%;
+}
+
+.container_block_service_wp_text{
+    font-size: 15px;
+}
+
+
+.decoration_text{
+    padding-bottom: 5px;
+}
+
+.decoration_text_c {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: normal;
+    color: #D32333;
+    font-style: normal;
+    
+}
+
+.decoration_text_c:hover{
+    border-bottom: 2px solid  #D32333;
+}
+
+.content__text{
+    margin-left: 25px;
+    width: 85%;
+    font-size: 20px;
+    color: #D32333;
+}
+
+.intro_inner_btn{
+    text-align: right;
+    margin-right: 200px;
+}
+
+.btn_s{
+    background-color: black;
+    margin-top: 15px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 8px;
+     text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid #fff;
+     color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.btn_s:hover{
+    color: fff;
+    background-color: #b80011;
+}
+
+.container_footer_service{
+    margin-top: 120px;
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+
+.title_rwp{
+    font-size: 18px;
+}
+
+.right__wrapper{
+    margin-top: 57px;
+}
+
+.decoration_wrapper{
+    font-size: 16px;
+    list-style: none;
+    padding: 10px;
+    
+}
+
+.right_wrapper_content{
+    width: 315px;
+    height: 325px;
+    background-color: #e9f0ff;
+}
+
+

@@ -1,0 +1,15 @@
+.intro_wellnes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 75vh;
+    background: rgb(51, 171, 113);
+    background-image: url(../image/header_2.jpg);
+    background-size: cover;
+}
+
+.image_wellnes{
+    padding-top: 50px;
+    width: 95%;
+}

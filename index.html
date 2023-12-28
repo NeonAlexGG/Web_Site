@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/itc-slider.css" />
+    <script defer src="js/jquery-3.6.1.slim.js"></script>
+    <script defer src="js/itc-slider.js"></script>
+    <script
+      src="/examples/libs/ui-components/itc-slider/itc-slider.js"
+      defer
+    ></script>
+    <script defer src="js/scroll.js"></script>
+    
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header_inner">
+          <div class="header_logo">
+            <a href="#" style="color: inherit; text-decoration: none"
+              >Ветеринарная клиника</a>
+          </div>
+          <nav class="nav">
+            <a class="nav_link" href="tel:79203350887">+7-920-335-08-87</a>
+            <a class="nav_link" href="site.html">Сервисы</a>
+            <a class="nav_link" href="emergency.html">Помощь</a>
+            <a class="nav_link" href="aboutus.html">О нас</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="intro">
+      <div class="container">
+        <div class="intro_inner">
+          <h1 class="intro__title">
+            Высокий стандарт ухода за вашими животными
+          </h1>
+          <h2 class="intro__subtitle">
+            Мы стремимся предоставлять ветеринарные услуги высочайшего качества,
+            используя самые современные технологии и приемы.
+          </h2>
+          <a class="btn" href="tel:79203350887">Записаться на приём</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="heading">
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="image/image1.jpg" style="width: 100%" alt="">
+        </div>
+        <div class="mySlides fade">
+          <img src="image/image2.jpg" style="width: 100%" alt="">
+        </div>
+        <div class="mySlides fade">
+          <img src="image/image3.jpg" style="width: 100%" alt="">
+        </div>
+        <a  class="prev" onclick="plusSlides(-1)">&#10094</a>
+        <a  class="next" onclick="plusSlides(1)">&#10095</a>
+      </div>
+      <br>
+
+      <div class="container_block">
+        <h1 class="title">Добро пожаловать в ветеринарную клинику</h1>
+        <h2 class="subtitle">Мы здесь, чтобы помочь вашим питомцам!</h2>
+        <p class="description">
+          Ветеринарная клиника - это ветеринарное учреждение с полным
+          спектром услуг. Мы предлагаем профилактическую помощь, общую хирургию,
+          стоматологическую помощь, диагностическую визуализацию, лабораторное
+          тестирование на месте и фармацевтические препараты.
+        </p>
+        <p class="description">
+          Ветеринарная клиника  - это ветеринарный центр с полным
+          спектром услуг. Заботясь об уникальных потребностях каждого пациента,
+          мы используем последние достижения в области ветеринарии. Каждый день
+          мы самоотверженно стремимся использовать наши навыки и знания, чтобы
+          служить вам и вашему питомцу.
+        </p>
+      </div>
+    </div>
+
+    <div class="container__block">
+      <div class="page_wrapper">
+        <div class="left_wrapper">
+          <a href="aboutus.html" class="left-panel-wrapper">
+            <h1 class="left_content">Мы предоставляем качественные ветеринарные услуги уже на протяжении 15 лет.</h1>
+            <div class="left__content" >
+              <u>Познакомьтесь с нами</u>
+            </div>
+          </a>
+        </div>
+
+        <div class="middle_wrapper">
+          <a href="site.html" class="left-panel-wrapper">
+            <h1 class="middle_content">Мы предоставляем комплексные ветеренарные услуги для ваших питомцев 24/7.</h1>
+            <div class="left__content" >
+              <u>Откройте для себя наши услуги</u>
+            </div>
+          </a>
+        </div>
+        
+        <div class="right_wrapper">
+          <a href="wellness.html" class="left-panel-wrapper">
+            <h1 class="left_content">Высококвалифицированный персонал владеющий новейшими технологиями.</h1>
+            <div class="left__content">
+              <u cls>Познакомьтесь с нашими сотрудниками</u>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container_wedo">
+      <div class="wedo">
+        <div class="wedo__item">
+          <img src="image/image10.png" alt="">
+        </div>
+        <div class="wedo__item">
+          <div class="accordion">
+            <div class="accordion__item" data-collapse="#wedo_1" >
+              <div class="accordion__header">
+                <div class="accordion__title">Здоровье</div>
+              </div>
+              <div class="accordion__content" id="wedo_1">
+                <p>Оздоровительные обследования - Вашему питомцу могут принести большую пользу регулярные оздоровительные обследования или медосмотры. Обычно оздоровительные осмотры рекомендуются 1-2 раза в год, в зависимости от возраста и состояния здоровья вашего питомца. Независимо от того, является ли ваш питомец подростком, “пожилым гражданином” или в любом возрасте между ними, оздоровительные осмотры предоставляют нашим врачам прекрасную возможность провести тщательный медицинский осмотр и составить профиль здоровья вашего питомца.</p>
+              </div>
+            </div>
+            <div class="accordion__item active_item" data-collapse="#wedo_2">
+              <div class="accordion__header" >
+                <div class="accordion__title">Диагностика</div>
+              </div>
+              <div class="accordion__content" id="wedo_2">
+                <p>Ветеринарная диагностика позволяет ветеринарам проникнуть глубже, чтобы исследовать, что происходит внутри организма вашего питомца. Такие процедуры, как радиология (рентген) и лабораторные исследования, дают больше информации и позволяют ветеринару с гораздо большей вероятностью поставить правильный диагноз вашему питомцу и, таким образом, улучшить результаты лечения.</p>
+              </div>
+            </div>
+            <div class="accordion__item active_item" data-collapse="#wedo_3">
+              <div class="accordion__header" >
+                <div class="accordion__title">Вакцинация</div>
+              </div>
+              <div class="accordion__content" id="wedo_3">
+                <p>Домашние животные сегодня могут жить дольше и здоровее, чем когда—либо прежде - отчасти благодаря вакцинам, которые помогают защитить их от смертельных инфекционных заболеваний. За прошедшие годы вакцины против опасных заболеваний спасли миллионы домашних животных и практически устранили некоторые смертельные заболевания, которые когда-то были распространены.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container_block_text">
+
+      <div class="page_text">
+
+        <div class="left_page_text">
+          <a href="diagnostics.html" class="left-page-text">
+            <h1 class="title_text ">Экспертиза</h1>
+            <p class="title_sub">15 минут | 30$</p>
+            <div class="text_sub" >
+              <p>Каждая кошка, поступающая в нашу больницу, подвергается детальному обследованию, которое длится не менее 20 минут. Причина прихода, все результаты медицинского обследования заносятся в форму, созданную на стойке регистрации…</p>
+            </div>
+            <div class="more_btn">
+              <h1 >Узнать больше...</h1>
+            </div>
+          </a>
+        </div>
+
+        <div class="middle_page_text">
+          <a href="vaccinations.html" class="left-page-text">
+            <h1 class="title_text">Вакцинация</h1>
+            <p class="title_sub">15 минут | 50$</p>
+            <div class="text_sub" >
+              <p>Это первая вакцина, которая абсолютно необходима каждой здоровой кошке в возрасте 2 месяцев. Вакцина включает кошачий парвовирус, кошачий герпесвирус-1, кошачий калицивирус. По часто задаваемым вопросам …</p>
+            </div>
+            <div class="more_btn">
+              <h1 >Узнать больше...</h1>
+            </div>
+          </a>
+        </div>
+        
+        <div class="right_page_text">
+          <a href="vaccinations.html" class="left-page-text">
+            <h1 class="title_text">Прививка от бешенства</h1>
+            <p class="title_sub">15 минут | 40$</p>
+            <div class="text_sub">
+              <p>Бешенство - это очень смертельная болезнь, которая существует с древних времен и по сей день. До сих пор сохраняет свое значение в нашей стране. Болезнь передается человеку через укус бешеного животного…</p>
+            </div>
+            <div class="more_btn">
+              <h1 >Узнать больше...</h1>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container_footer">
+      <div class="footer__inner">
+        <div class="footer_col footer_col--first">
+          <div class="footer_logo">Часы работы</div>
+          <div class="footer__text"><p>Понедельник-Пятница: 8:30 – 18.00</p>
+            <p>Суббота: 10.00 – 16.00</p>
+            <p>Воскресенье: Закрыто</p>
+            <p>*Пожалуйста, позвоните нашим администраторам по телефону (000) 000-0000, чтобы записаться на прием.</p>
+          </div>
+          <div class="footer_social-content">
+            Связаться с нами:
+            <a href="#" target="_blank"><i class="fa fa-facebook fa-2x"></i></a> 
+            <a href="#" target="_blank"><i class="fa fa-vk fa-2x"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-paper-plane fa-2x"></i></a>
+          </div>
+
+          
+        </div>
+        <div class="footer_col footer_col--second">
+          <div class="footer_title">Информационный бюллетень</div>
+          <div class="footer__sub__title">
+            <div class="footer__text">
+              <p>Будь первым в очереди! Получайте наши последние новости прямо на свой почтовый ящик.</p>
+              <form class="subscribe" action="/" method="post">
+                <input class="subscribe_input" type="email" name="name" placeholder="Ваш E-mail...">
+                <button class="subscribe_btn" type="submit">Отправить</button>
+              </form>
+              </div>
+          </div>
+        </div>
+        
+
+      </div>
+    </div>
+
+
+    
+
+  </body>
+</html>

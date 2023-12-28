@@ -1,0 +1,34 @@
+.intro_aboutus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 75vh;
+    background: rgb(51, 171, 113);
+    background-image: url(../image/header_4.jpg);
+    background-size: cover;
+}
+
+.intro__title__aboutus{
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.containte_sidebar_aboutus{
+    margin-top: 70px;
+    margin-left: 130px;
+    margin-right: 130px;
+    
+}
+
+.img_aboutus{
+    width: 100%;
+}
+
+.container__wrapper_aboutus{
+    text-decoration: none;
+    margin-left: 80px;
+    font-size: 16px;
+    line-height: normal;
+    font-style: normal;
+}
